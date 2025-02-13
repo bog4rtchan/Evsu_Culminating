@@ -19,12 +19,16 @@ header h1 {
     color: black; /* Keep the header text black */
 }
 
-/* Navigation bar */
-nav {
+/* Navigation container */
+.nav-container {
+    max-width: 800px; /* Set a max width */
+    margin: 0 auto; /* Center the navigation */
     background: linear-gradient(90deg, #d10000, #8b0000); /* Red gradient */
     padding: 10px 0;
+    border-radius: 10px; /* Optional rounded edges */
 }
 
+/* Navigation bar */
 nav ul {
     list-style: none;
     padding: 0;
