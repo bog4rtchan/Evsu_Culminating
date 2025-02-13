@@ -1,8 +1,47 @@
+/* Reset default styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light gray background */
+    color: black; /* Normal text color */
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: #333;
+
+/* Header styles */
+header {
+    background: #d10000; /* Red background */
+    color: white; /* White text */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+section {
+    padding: 20px;
+    background-color: white; /* White background for content */
+    color: black; /* Black text */
 }
